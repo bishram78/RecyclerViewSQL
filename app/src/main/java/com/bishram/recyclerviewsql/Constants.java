@@ -11,4 +11,8 @@ public class Constants {
     static final String ROW_ID = "id";
     static final String COLUMN_NAME = "name";
     static final String COLUMN_POSITION = "position";
+
+    //COMMAND THAT CREATE TABLE TO THE DATABASE
+    static final String CREATE_TABLE = "CREATE TABLE d_TB (id INTEGER PRIMARY KEY AUTOINCREMENT," +
+            "name TEXT NOT NULL, position TEXT NOT NULL);";
 }
